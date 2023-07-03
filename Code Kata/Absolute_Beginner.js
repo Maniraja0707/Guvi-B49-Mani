@@ -380,7 +380,108 @@ function findmax(value) {
 console.log(findmax(value));
 */
 
+// sort of values(You are a software engineer at an MNC. You are given the task of sorting the employees in your company based on their salary. Perform the task so that the employees, including yourself, will get a bonus from the management)
+/*
+let arr = userInput[1].split(" ");
+//console.log(arr);
+let salaries = [];
 
+for(i=0; i<arr.length; i+=2){
+salaries.push([arr[i],Number(arr[i+1])])
+}
+
+salaries.sort((a,b)=> a[1] - b[1]);
+//console.log(salaries);
+
+for(i=0 ; i<salaries.length; i++){
+  console.log(salaries[i][0]);
+}
+*/
+
+
+//Ria is a 5 year old girl. Her mother wants to teach her how to sort words in the same order that they appear in a dictionary. She decides to write a program to sort a given set of strings based on their alphabetical order. Help Ria’s mother to complete the program.
+/*
+let arr = userInput[1].split(" ");
+console.log(arr.sort().join(" ").trim());
+*/
+
+
+//odd number
+//Given a number N, print the odd digits in the number(space seperated) or print -1 if there is no odd digit in the given number.
+/*
+let N = userInput[0]; // example input
+//console.log(N);
+let arr = Array.from(N);
+//console.log(arr);
+
+
+ let Odd = arr.filter(x => parseInt(x) % 2 == 1)
+ 
+
+ if (Odd.length == 0) {
+     Odd.push(-1);
+ }
+
+//console.log(Odd);
+console.log(Odd.join(' '));
+*/
+
+
+//Given a string S, print it after changing the middle element to * (if the length of the string is even, change the 2 middle elements to *).
+/*
+let A = userInput[0];
+A = A.split('');
+let ACount = userInput[0].length;
+//console.log(ACount);
+let N = ((userInput[0].length)/2);
+N = Math.floor(N);
+//console.log(N);
+
+  ACount%2 ===0? ((A[(N-1)] = "*") && (A[N] = '*')):(A[N] = '*');
+
+console.log(A.join(''));
+*/
+
+//You are given given task is to print whether array is ‘majestic’ or not.A ‘majsetic’ array is an array whose sum of first three number is equal to last three number.
+/*let arr = userInput[1].split(" ").map(Number);
+//console.log(arr);
+
+let firstsum = 0;
+let lastsum = 0;
+
+for(i=0; i<3; i++){
+  firstsum += arr[i];
+}
+for(i=arr.length-1; i>arr.length-4; i--){
+  lastsum += arr[i];
+}
+
+(firstsum != lastsum)? console.log(0):console.log(1);
+
+//console.log(firstsum);
+//console.log(lastsum);
+*/
+
+
+//In a world cup tournament,no of goals scored by each team is given to you. Your task is to calculate net goal rate of each team.
+let arr = userInput[1].split(" ").map(Number);
+
+//console.log(arr);
+
+let lastsum = 0;
+for (i=arr.length-1 ; i> arr.length-4; i--){
+  lastsum += arr[i];
+}
+//console.log(lastsum);
+
+let result =[];
+for (i=0; i<arr.length; i++){
+  var Value = (Number(lastsum) - Number(arr[i]))*(-1);
+result.push(Value);
+  
+}
+//console.log(typeof(Value))
+console.log(result.join(" "));
 
 
   //end-here
