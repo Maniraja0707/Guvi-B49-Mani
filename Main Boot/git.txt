@@ -1,0 +1,23 @@
+git config --global user.name "Mastro"
+
+git config --global user.email "maniraja0707@gmail.com"
+
+
+git config --list
+
+
+
+folder path 
+cd "D:\Fullstack course Guvi\Main boot\B49\Guvi-B49-Mani\Main Boot"
+
+ls
+
+git add .
+
+
+git commit -m "First commit"
+
+
+git push
+
+
