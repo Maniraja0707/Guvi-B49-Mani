@@ -1,0 +1,33 @@
+const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+  inp.on("line", (data) => {
+  userInput.push(data);
+});
+inp.on("close", () => {
+  const inputString = userInput.toString();
+  const inputArray = inputString.split(',');
+  //console.log(inputArray);// array of given inputs
+// your code goes here
+  let arr = userInput[0].split(" ").map(Number);
+  let sub = arr[0] - arr[1];
+  if(sub%2 ===0){
+    console.log("even");
+  }else console.log("odd");
+  
+    
+  
+  
+});
+
+
+//Given 2 numbers N,M. Find their difference and check whether it is even or odd.
+
+sample input :
+
+5 5
+sample output :
+
+even

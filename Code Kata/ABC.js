@@ -7,10 +7,12 @@ const userInput = [];
   userInput.push(data);
 });
 inp.on("close", () => {
-  const inputString = userInput.toString();
-  const inputArray = inputString.split(',');
-  console.log(inputArray);// array of given inputs
+  //const inputString = userInput.toString();
+  //const inputArray = inputString.split(',');
+  //console.log(inputArray);// array of given inputs
 // your code goes here
-  userInput = [0]
+  let arr = userInput[0];
+  console.log(arr);
+
   
 });

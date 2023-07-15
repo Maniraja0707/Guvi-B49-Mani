@@ -616,7 +616,7 @@ console.log(sum);
 
 
 //Ramesh is a student and wants to find out if there is any other student in his class who has got the same marks as his, in maths. Help him to find out.
-
+/*
 function index(N,M){
 for (i=0; i< arr.length; i++){
   if(arr[i]==M){
@@ -632,7 +632,13 @@ let N = A[0];
 let M = A[1];
 //console.log(arr);
 console.log(index(N,M));
+*/
+
+let A = ['a','b','c'];
+A[4] = 'e';
+console.log(A);
 
 
 //end-here
 });
+

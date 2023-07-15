@@ -1,0 +1,45 @@
+const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+  inp.on("line", (data) => {
+  userInput.push(data);
+});
+inp.on("close", () => {
+  const inputString = userInput.toString();
+  const inputArray = inputString.split(',');
+  //console.log(inputArray);// array of given inputs
+// your code goes here
+  function filtervowels(str) {
+    let vowels ='aeiouAEIOU ';
+    let result = '';
+    for (let i=0; i <str.length; i++) {
+    if (vowels.includes(str[i])) {
+      result+= str[i];
+    }
+    }
+    return result;
+  }
+  let input = userInput[0];
+  let output = filtervowels(input);
+  console.log(output);
+  
+});
+
+
+Given a string print the vowels in the string
+
+Input Description:
+Given a string
+
+Output Description:
+Print the String
+
+sample input :
+
+guvi geek
+sample output :
+
+ui ee
+

@@ -1,0 +1,45 @@
+const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+  inp.on("line", (data) => {
+  userInput.push(data);
+});
+inp.on("close", () => {
+  const inputString = userInput.toString();
+  const inputArray = inputString.split(',');
+  //console.log(inputArray);// array of given inputs
+// your code goes here
+  function toUpperCasekth(str,k){
+    let result = '';
+    for(let i =0; i<str.length; i++) {
+      if ((i+1)%k ===0) {
+        result += str[i].toUpperCase();
+      } else {
+        result +=str[i];
+      }
+    }
+    return result;
+  }
+  let arr =userInput[0].split(" ");
+  let input = arr[0];
+  let k = Number(arr[1]);
+  let output = toUpperCasekth(input, k);
+  console.log(output);
+  
+  
+  
+  
+  
+});
+
+
+//Given a string and a number K, change every kth character to uppercase from beginning in string.
+
+sample input :
+
+string 2
+sample output :
+
+sTrInG
