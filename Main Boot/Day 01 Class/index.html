@@ -11,7 +11,7 @@
         myHTTP.open('GET', 'https://jsonplaceholder.typicode.com/users');
         myHTTP.send();
 
-       myHTTP.onload = function() {
+        myHTTP.onload = function() {
             if(myHTTP.status == 200){
                 console.log('Users Data: ',myHTTP.response);
                 document.getElementById('status').innerHTML = myHTTP.status;
@@ -22,12 +22,10 @@
                 document.getElementById('status').innerHTML = myHTTP.status;
             }
         }
-    
     </script>
 </head>
 <body>
-    <h1>This is HTML Page</h1>
-    <h2 id="status">hi</h2>
+    <h1 id="status"></h1>
     <div id="users"></div>
 </body>
 </html>
