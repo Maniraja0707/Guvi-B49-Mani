@@ -1,6 +1,6 @@
 git config --global user.name "Mastro"
 
-git config --global user.email "maniraja0707@gmail.com"
+git config --global user.email "Maniraja0707@gmail.com"
 
 
 git config --list
