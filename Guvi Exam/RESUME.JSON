@@ -1,0 +1,290 @@
+{
+    "basics": {
+    "name": "Manikandan Rajagopal",
+    "label": "Senior GIS Analyst",
+    "image": "",
+    "email": "maniraja0707@gmail.com",
+    "phone": "+919788893757",
+    "url": "https://www.linkedin.com/in/manikandan-rajagopal-284b2013a/",
+    "summary": "Experienced process Lead with a demonstrated history of working in the information technology and services industry. Skilled in Civil 3D, Revit, Navisworks, Lidar, Navvis indoor scanner, Faro Laser Scaner, Point cloud, Scan to BIM modeling, AutoCAD, Autodesk InfraWorks, Document Drafting, Gpon, FTTX, gas, water, telecom network, Leica Cyclone, and 3D Scanning. Strong engineering professional with a Diploma focused in Mechanical Engineering from sri vignesh Polytechnic College.",
+    "location": {
+      "countryCode": "US",
+      "address": "India"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "manikandan-rajagopal-284b2013a",
+        "url": "https://www.linkedin.com/in/manikandan-rajagopal-284b2013a/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Springbord systems Pvt Ltd",
+      "position": "Senior gis analyst",
+      "startDate": "",
+      "endDate": "",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/10665206",
+      "location": "Chennai Area, India"
+    },
+    
+    {
+      "company": "Capgemini ",
+      "position": "Process Lead",
+      "startDate": "2019-07-31",
+      "endDate": "2019-10-31",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/157240",
+      "location": "Trichy"
+    },
+    {
+      "company": "One Works Bim Technologies",
+      "position": "Team Lead",
+      "startDate": "2018-10-31",
+      "endDate": "2019-06-30",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/35604737",
+      "location": "Chennai Area, India"
+    },
+    {
+      "company": "Hemminger DMS Pvt. Ltd.",
+      "position": "Assistant Engineer",
+      "startDate": "2012-11-30",
+      "endDate": "2018-10-31",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/2993369",
+      "location": "Trichy, INDIA"
+    }
+  ],
+  
+  "education": [
+    {
+      "institution": "Tamil Nadu Open University",
+      "courses": "Geography",
+      "studyType": "Bachelor of Science - BS",
+      "startDate": "2017-12-31",
+      "endDate": "2020-12-31",
+      "score": "A",
+    },
+    {
+      "institution": "Anna University",
+      "courses": "Mechanical Engineering",
+      "studyType": "Diploma",
+      "startDate": "2009-12-31",
+      "endDate": "2012-12-31",
+      "score": "1",
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Building Information Modeling (BIM)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Quality Assurance",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Enterprise GIS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Metrology",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Document Drafting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "3D Modeling",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Raster",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Geographic Information Systems (GIS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "disaster maintenance",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AutoCAD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Environmental Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "3d laser scanning ",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ArcGIS Desktop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "draftman",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "3D GIS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Arc Gis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Autodesk InfraWorks",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Quality Control",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Computer Hardware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ArcGIS Products",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Topographic Surveys",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Autodesk Civil 3D",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Environmental Science",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "LiDAR",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Leica Cyclone",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "NavVis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "bently microsation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ArcMap",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "LiDAR BIM",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Oxford Data Consultancy (ODC) in UK",
+      "startDate": "2020-02-28",
+      "summary": null,
+      "url": "https://www.odc.co.uk/",
+      "endDate": "2020-02-28"
+    },
+    {
+      "name": "EAGLE VIEW ROOF MEASUREMENT in USA",
+      "startDate": "2019-07-31",
+      "summary": null,
+      "url": "https://www.eagleview.com/",
+      "endDate": "2019-10-31"
+    },
+    {
+      "name": "King Abdullah Financial District in Saudi Arabia (KAFD)",
+      "startDate": "2018-10-31",
+      "summary": null,
+      "url": "https://www.kafd.sa/",
+      "endDate": "2019-07-31"
+    },
+    {
+      "name": "EnBW in Germany",
+      "startDate": "2012-11-30",
+      "summary": null,
+      "url": "https://www.enbw.com/company/",
+      "endDate": "2018-10-31"
+    }
+  ],
+  "meta": {
+    "Linkedin_url": "https://www.linkedin.com/in/manikandan-rajagopal-284b2013a/",
+  }
+}
