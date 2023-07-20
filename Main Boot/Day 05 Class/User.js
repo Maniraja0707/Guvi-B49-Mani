@@ -1,13 +1,18 @@
-// class User{
-//     construtor(){
-//         console.log('Hello');
-//     }
-//     name = 'Harish';
+class User{
+    construtor(){
+        console.log('Hello');
+    }
+    name = 'Sai';
 
-//     greetUser(){
-//         console.log('Hello, How are you?')
-//     }
-// };
+    greetUser(){
+        console.log('Hi Mani, How are you?')
+    }
+};
+
+let user = new User();
+console.log(user.name); // Harish
+user.greetUser(); // Hello, How are you?
+
 
 // class Car{
 //     construtor(){
@@ -39,34 +44,34 @@
 // const carObj = new Car();
 
 
-class User{
-    xyz = 'Sachin';
-    constructor(username){
-        this.xyz = username;
-    }
+// class User{
+//     xyz = 'Sachin';
+//     constructor(username){
+//         this.xyz = username;
+//     }
 
-    // constructor(){
+//     // constructor(){
 
-    // }
+//     // }
 
 
-    greetUser(){
-        // console.log(`Hello, ${this.xyz}! Happy Weekend.`);
-        console.log("Hello, " + this.xyz + "! Happy Weekend");
-        this.getSomeGoodNews();
-    }
+//     greetUser(){
+//         // console.log(`Hello, ${this.xyz}! Happy Weekend.`);
+//         console.log("Hello, " + this.xyz + "! Happy Weekend");
+//         this.getSomeGoodNews();
+//     }
 
-    getSomeGoodNews(){
-        console.log("You have got an offer at Microsoft (Bangalore)")
-    }
-}
+//     getSomeGoodNews(){
+//         console.log("You have got an offer at Microsoft (Bangalore)")
+//     }
+// }
 
-const userObj = new User('Roger Federer'); // it creates an obj and calls constructor of the class
-const lebronObj = new User('LeBron James'); // it creates an obj and calls constructor of the class
+// const userObj = new User('Roger Federer'); // it creates an obj and calls constructor of the class
+// const lebronObj = new User('LeBron James'); // it creates an obj and calls constructor of the class
 
-userObj.greetUser();
+// userObj.greetUser();
 
-lebronObj.greetUser();
+// lebronObj.greetUser();
 
 // this keyword refers to the immediate/ current refernce
 
